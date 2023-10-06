@@ -8,7 +8,7 @@ const RightSide = () => {
           apelmahmud1151@gmail.com
         </p>
       </a><br /><br />
-      <span className="w-[2px] h-40 bg-textDark inline-flex"></span>
+      <span className="w-[2px] h-40 bg-green-600 inline-flex"></span>
     </div>
   );
 };

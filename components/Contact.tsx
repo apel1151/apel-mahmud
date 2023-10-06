@@ -10,15 +10,15 @@ const Contact = () => {
           <div className="max-w-md mx-auto bg-[#112240] p-8 rounded-lg shadow-navbarShadow">
             <form>
               <div className="mb-4">
-                <label htmlFor="name" className="block text-gray-700 text-sm font-medium mb-2">Name</label>
+                <label htmlFor="name" className="block text-green-500 text-sm font-medium mb-2">Name</label>
                 <input type="text" id="name" name="name" className="w-full p-2 border border-green-300 bg-bodyColor rounded" />
               </div>
               <div className="mb-4">
-                <label htmlFor="email" className="block text-gray-700 text-sm font-medium mb-2">Email</label>
+                <label htmlFor="email" className="block text-green-500 text-sm font-medium mb-2">Email</label>
                 <input type="email" id="email" name="email" className="w-full p-2 border border-green-300 bg-bodyColor rounded" />
               </div>
               <div className="mb-4">
-                <label htmlFor="message" className="block text-gray-700 text-sm font-medium mb-2">Message</label>
+                <label htmlFor="message" className="block text-green-500 text-sm font-medium mb-2">Message</label>
                 <textarea id="message" name="message" className="w-full p-2 border border-green-300 bg-bodyColor rounded"></textarea>
               </div>
               <button type="submit" className="w-32 h-10 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300">Submit</button>

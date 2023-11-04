@@ -1,5 +1,3 @@
-import React from "react";
-
 const RightSide = () => {
   return (
     <div className="w-full h-full flex flex-col items-center justify-end gap-6 text-textLight">
@@ -7,8 +5,10 @@ const RightSide = () => {
         <p className="text-sm rotate-90 w-72 tracking-widest text-textGreen">
           apelmahmud1151@gmail.com
         </p>
-      </a><br /><br />
-      <span className="w-[2px] h-40 bg-green-600 inline-flex"></span>
+      </a>
+      <br />
+      <br />
+      <span className="w-[2px] h-40 bg-skyblue inline-flex"></span>
     </div>
   );
 };

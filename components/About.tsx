@@ -13,26 +13,24 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Hello! My name is Apel Mahmud and I enjoy creating things that live on the internet.
-            My interest in web development started back in 2018 when I started my bachelor degree on
-            Software
-            Engineering at Yunnan University, China I have learned Web Development during my
-            graduation.
-            Now heading up to be a Junior Software Developer specializing in front end development
-            with 1 year professional
-            experience in employing functional programming to build web projects.
+            Hello! My name is Apel Mahmud and I enjoy creating things that live
+            on the internet. My interest in web development started back in 2018
+            when I started my bachelor degree on Software Engineering at Yunnan
+            University, China I have learned Web Development during my
+            graduation. Now heading up to be a Junior Software Developer
+            specializing in front end development with 1 year professional
+            experience in employing functional programming to build web
+            projects.
             <br />
-              Software Engineering graduate skilled in JavaScript and React framework demonstrated expertise improving workflow
-              efficiency and
-              driving user engagement. Proficent in system design and technical specification.
-              Currently, I am learing Node.js which is the best backend technology out there. I also
-              focusing on Mongodb and
-              Express to become a full-stack Developer in near future. My next goal is to be expert in
-              Next.js which
-              enables you to create full-stack Web applications by extending the latest React features,
-              and integrating powerful
-              Rust-based JavaScript tooling for the fastest builds.
-            
+            Software Engineering graduate skilled in JavaScript and React
+            framework demonstrated expertise improving workflow efficiency and
+            driving user engagement. Proficent in system design and technical
+            specification. Currently, I am learing Node.js which is the best
+            backend technology out there. I also focusing on Mongodb and Express
+            to become a full-stack Developer in near future. My next goal is to
+            be expert in Next.js which enables you to create full-stack Web
+            applications by extending the latest React features, and integrating
+            powerful Rust-based JavaScript tooling for the fastest builds.
           </p>
           <p>Here are a few technologies I have been working with recently:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
@@ -64,7 +62,7 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              TypeScript
+              SQL
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">

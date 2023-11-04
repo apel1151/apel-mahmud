@@ -32,10 +32,11 @@ module.exports = {
       },
       colors: {
         bodyColor: "#0A192F",
-        textGreen: "#64ffda",
+        textGreen: "#00bfff",
         textLight: "#ccd6f6",
         textDark: "#8892b0",
         hoverColor: "rgba(100,255,218,0.1)",
+        skyblue: "#00bfff",
       },
     },
   },

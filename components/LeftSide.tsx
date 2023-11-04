@@ -1,9 +1,9 @@
-import { TbBrandGithub } from "react-icons/tb";
 import {
-  SlSocialLinkedin,
   SlSocialFacebook,
   SlSocialInstagram,
+  SlSocialLinkedin,
 } from "react-icons/sl";
+import { TbBrandGithub } from "react-icons/tb";
 
 const LeftSide = () => {
   return (
@@ -15,10 +15,7 @@ const LeftSide = () => {
           </span>
         </a>
 
-        <a
-          href="https://www.linkedin.com/in/apel1151"
-          target="_blank"
-        >
+        <a href="https://www.linkedin.com/in/apel1151" target="_blank">
           <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
             <SlSocialLinkedin />
           </span>
@@ -34,7 +31,7 @@ const LeftSide = () => {
           </span>
         </a>
       </div>
-      <div className="w-[2px] h-32 bg-green-600"></div>
+      <div className="w-[2px] h-32 bg-skyblue"></div>
     </div>
   );
 };

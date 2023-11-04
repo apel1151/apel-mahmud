@@ -1,16 +1,15 @@
-import { useRef } from "react";
 import { logo } from "@/public/assests";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
-import { TbBrandGithub } from "react-icons/tb";
+import { useRef, useState } from "react";
+import { MdOutlineClose } from "react-icons/md";
 import {
-  SlSocialLinkedin,
   SlSocialFacebook,
   SlSocialInstagram,
+  SlSocialLinkedin,
 } from "react-icons/sl";
-import { MdOutlineClose } from "react-icons/md";
-import { motion } from "framer-motion";
+import { TbBrandGithub } from "react-icons/tb";
 
 const Navbar = () => {
   const ref = useRef<string | any>("");
@@ -54,7 +53,7 @@ const Navbar = () => {
         {/* ============ Logo End here ============== */}
         {/* ============ ListItem Start here ======== */}
         <div className="hidden mdl:inline-flex items-center gap-7">
-          <ul className="flex text-[13px] gap-7">
+          <ul className="flex text-[16px] gap-7">
             <Link
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
               href="#home"
@@ -184,7 +183,6 @@ const Navbar = () => {
                       animate={{ x: 0, opacity: 1 }}
                       transition={{ duration: 0.2, delay: 0.2, ease: "easeIn" }}
                     >
-                     
                       About
                     </motion.li>
                   </Link>
@@ -198,7 +196,6 @@ const Navbar = () => {
                       animate={{ x: 0, opacity: 1 }}
                       transition={{ duration: 0.2, delay: 0.3, ease: "easeIn" }}
                     >
-                     
                       Experience
                     </motion.li>
                   </Link>
@@ -212,7 +209,6 @@ const Navbar = () => {
                       animate={{ x: 0, opacity: 1 }}
                       transition={{ duration: 0.2, delay: 0.4, ease: "easeIn" }}
                     >
-                      
                       Project
                     </motion.li>
                   </Link>
@@ -226,12 +222,14 @@ const Navbar = () => {
                       animate={{ x: 0, opacity: 1 }}
                       transition={{ duration: 0.2, delay: 0.5, ease: "easeIn" }}
                     >
-                      
                       Contact
                     </motion.li>
                   </Link>
                 </ul>
-                <a href="/public/assests/Apel_Mahmud_Resume.pdf/" target="_blank">
+                <a
+                  href="/public/assests/Apel_Mahmud_Resume.pdf/"
+                  target="_blank"
+                >
                   <motion.button
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}

@@ -1,15 +1,14 @@
+import { motion } from "framer-motion";
 import { useState } from "react";
 import ArchiveCard from "./ArchiveCard";
-import { motion } from "framer-motion";
 import SectionTitle from "./SectionTitle";
 
 const Archive = () => {
   const [showMore, setShowMore] = useState(false);
 
-
   const handleArchive = () => {
     alert("Project not added yet!");
-  }
+  };
 
   return (
     <div className="max-w-contentContainer mx-auto px-4 py-24">

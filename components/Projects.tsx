@@ -1,14 +1,13 @@
 import { education, quizApp, todo } from "@/public/assests";
 import Image from "next/image";
-import { AiOutlineYoutube } from "react-icons/ai";
+import { RxOpenInNewWindow } from "react-icons/rx";
 import { TbBrandGithub } from "react-icons/tb";
 import SectionTitle from "./SectionTitle";
-import { RxOpenInNewWindow } from "react-icons/rx";
 
 const Projects = () => {
   return (
     <section id="project" className="max-w-container mx-auto lgl:px-20 py-24">
-      <SectionTitle title="Some Things I have Built"/>
+      <SectionTitle title="Some Things I have Built" />
       {/* ============ project One Start here ================ */}
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
         <div className="flex flex-col xl:flex-row gap-6">
@@ -34,9 +33,8 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">Online Education Website</h3>
             </div>
             <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-              An amazing Multipages Frontend website for Online Education. 
-              Fully responsive frontend website using Html, Css and JavaScript.{" "}
-        
+              An amazing Multipages Frontend website for Online Education. Fully
+              responsive frontend website using Html, Css and JavaScript.{" "}
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>HTML5</li>
@@ -53,7 +51,7 @@ const Projects = () => {
               >
                 <TbBrandGithub />
               </a>
-             
+
               <a
                 className="hover:text-textGreen duration-300"
                 href="https://apel1151.github.io/education-multipage-website/"
@@ -89,10 +87,9 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">React Todo Application</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
-               A fully functional react todo application. I have used react, react-bootstrap and also styled components.
-               LocalStorage has used for session data store.
-               {" "}
-              
+              A fully functional react todo application. I have used react,
+              react-bootstrap and also styled components. LocalStorage has used
+              for session data store.{" "}
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>Html</li>
@@ -144,9 +141,8 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">Quiz Application</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md">
-              A logical quiz application using vanila javascript. It has time dependency and user will get score according to answer.
-              {" "}
-             
+              A logical quiz application using vanila javascript. It has time
+              dependency and user will get score according to answer.{" "}
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>Html</li>
